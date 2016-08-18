@@ -26,5 +26,9 @@ function init() {
   // change the x,y coordinates of the image to place it exactly where you want
   restroom.x = 500;
   restroom.y = 450;
- 
+  // add the restroom icon to the stage
+  stage.addChild(restroom);
+
+  // update the stage to show the newly drawn objects on the canvas
+  stage.update(); 
 };
