@@ -16,6 +16,11 @@ function init() {
 
   // update the stage with all changes/additions, drawn objects should now be visible on the canvas when you visit the page
   stage.update();
+
+  // draw restroom icon photo onto canvas over wrigley photo
+  var restroom = new createjs.Bitmap("assets/restroom.png");
+  // pre-load the image
+  restroom.image.onload = function() {
+    stage.update();
+  }
 };
-
-
