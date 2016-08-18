@@ -23,4 +23,8 @@ function init() {
   restroom.image.onload = function() {
     stage.update();
   }
+  // change the x,y coordinates of the image to place it exactly where you want
+  restroom.x = 500;
+  restroom.y = 450;
+ 
 };
