@@ -13,6 +13,9 @@ function init() {
   }
   // add the photo to the stage
   stage.addChild(wrigley);
+
+  // update the stage with all changes/additions, drawn objects should now be visible on the canvas when you visit the page
+  stage.update();
 };
 
 
