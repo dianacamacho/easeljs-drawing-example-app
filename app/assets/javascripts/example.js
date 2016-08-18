@@ -11,4 +11,8 @@ function init() {
   wrigley.image.onload = function() {
     stage.update();
   }
+  // add the photo to the stage
+  stage.addChild(wrigley);
 };
+
+
